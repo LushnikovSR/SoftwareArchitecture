@@ -1,5 +1,7 @@
 package ModelEliments;
 
+import Stuff.Point3D;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -9,6 +11,6 @@ public class PoligonalModel {
     public PoligonalModel(List<Texture> textures){
         this.textures = textures;
         this.poligons = new ArrayList<>();
-        this.poligons.add(new Poligon());
+        this.poligons.add(new Poligon(new Point3D()));
     }
 }
