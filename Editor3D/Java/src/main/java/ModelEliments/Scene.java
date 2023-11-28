@@ -24,11 +24,19 @@ public class Scene {
         }
     }
 
-    public Type method1(Type temp) {
-        return null;
+//    public Type method1(Type temp) {
+//        return null;
+//    }
+//
+//    public Type method2(Type temp1, Type temp2) {
+//        return null;
+//    }
+
+    public <T> T method1(T flash){
+        return flash;
     }
 
-    public Type method2(Type temp1, Type temp2) {
-        return null;
+    public <T, E> T method2(T Model, E Flash){
+        return Model;
     }
 }
